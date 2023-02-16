@@ -11,63 +11,69 @@ body {
     'Helvetica Neue', 
     sans-serif;
   color: #2D2D2D;
-}
-
-.hero {
-  width: 1764px;
-}
-
-.hero-heading {
-  font-size: 50px;
-  font-weight: 700;
-  margin: 0;
-  padding: 90px 76px 58px 78px;
-}
-
-.hero-container {
-  width: 1764px;
-  padding: 0 76px 52px 78px;
-}
-
-.hero-container p:first-child {
-  padding-bottom: 34px;
-}
-
-.hero-holder {
-  width: 1088px;
-  margin: 0;
-  padding: 0 757px 30px 78px;
-}
-
-figure {
-  margin: 0;
-  padding: 0 749px 47px 78px;
-}
-
-.container-content {
   font-size: 22px;
   line-height: 33px;
-  margin: 0;
-  white-space: break-spaces;
 }
 
-.hero-list {
+.article {
+  width: 1764px;
+  padding-left: 78px;
+  padding-right: 76px;
+}
+
+.article-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-top: 90px;
+  margin-bottom: 58px;
+}
+
+.text {
+  font-size: 22px;
+  line-height: 33px;
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+
+.nav-list {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 48px;
+  padding: 0;
   width: 464px;
-  margin: 0;
-  padding: 0 1300px 48px 78px;
   list-style-position: inside;
 }
 
-.hero-link {
-  font-size: 16px;
-  line-height: 24px;
+.item-link {
   text-decoration: none;
   color: #525252;
 }
 
-.before-buy:first-line,
-.before-put-on:first-line,
-.daily-care:first-line {
-  font-weight: 700;
+.article-content {
+  width: 1097px;
 }
 
+.image{
+  width: 1097px;
+  height: 563px;
+}
+
+.subheading {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.text-desc {
+  margin-bottom: 0;
+  margin-top: 47px;
+}
+
+.text-list {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: none;
+}
