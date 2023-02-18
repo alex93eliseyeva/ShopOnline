@@ -16,11 +16,9 @@ body {
 }
 
 .article {
-  width: 1764px;
-  padding-left: 78px;
-  padding-right: 76px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  max-width: 1764px;
+  padding: 100px 20px 86px;
+  margin: 0 auto;
 }
 
 .article-heading {
@@ -32,7 +30,7 @@ body {
 }
 
 .article-content {
-  width: 1097px;
+  max-width: 1097px;
   margin-bottom: 33px;
 }
 
@@ -45,6 +43,10 @@ body {
   margin-bottom: 33px;
 }
 
+.main-text:last-child {
+  margin-bottom: 0;
+}
+
 .nav {
   padding-bottom: 23px;
   padding-top: 17px;
@@ -54,11 +56,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   padding: 0;
-  width: 464px;
   list-style-position: inside;
 }
 
-.item-link {
+.nav-link {
   text-decoration: none;
   color: #525252;
 }
