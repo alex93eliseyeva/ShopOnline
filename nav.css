@@ -1,0 +1,16 @@
+.nav {
+  padding-bottom: 23px;
+  padding-top: 17px;
+}
+  
+.nav__list {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+  list-style-position: inside;
+}
+  
+.nav__link {
+  text-decoration: none;
+  color: #525252;
+}

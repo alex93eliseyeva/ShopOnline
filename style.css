@@ -1,3 +1,5 @@
+@import "nav.css";
+
 @font-face {
   font-family: Lato;
   src: url("fonts/lato-regular.woff2") format("woff2"),
@@ -36,7 +38,7 @@ body {
   margin: 0 auto;
 }
 
-.article-heading {
+.article__heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 65px;
@@ -53,7 +55,7 @@ body {
   margin-bottom: 0;
 }
 
-.main-text {
+.article__main-text, .article-content__main-text {
   margin-top: 0;
   margin-bottom: 33px;
 }
@@ -62,44 +64,31 @@ body {
   margin-bottom: 0;
 }
 
-.nav {
-  padding-bottom: 23px;
-  padding-top: 17px;
-}
-
-.nav-list {
-  font-size: 16px;
-  line-height: 24px;
-  padding: 0;
-  list-style-position: inside;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #525252;
-}
-
-.image{
+.article-content__image, .section-content__image{
   width: 1097px;
   height: 563px;
   padding-bottom: 50px;
   padding-top: 27px;
 }
 
-.subheading {
+.section-content_margin-bottom {
+  margin-bottom: 33px;
+}
+
+.article-content__subheading {
   font-size: 22px;
   line-height: 33px;
   font-weight: 700;
   margin: 0;
 }
 
-.subtitle {
+.section-content__subtitle {
   margin: 0;
   font-weight: 400;
   font-size: 22px;
 }
 
-.alt-text {
+.section-content__alt-text {
   margin-bottom: 0;
   margin-top: 0;
 }
