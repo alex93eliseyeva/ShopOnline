@@ -1,0 +1,24 @@
+html {
+  --main-color: #FFFFFF;
+
+}
+
+.header {
+  --header-extra-color: #3670C7;
+  --header-text-color: #2D2D2D;
+  --search-color: #8F8F8F;
+  --input-color: #EFEFEF;
+}
+
+.offers {
+  --banner-gradient: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  --book-gradient: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%);
+  --discount-gradient: linear-gradient(179.81deg, rgba(7, 7, 7, 0) 30.77%, rgba(0, 0, 0, 0.2) 99.83%);
+  --discount-color: #FFBD13;
+  --trainers-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 25.39%, rgba(0, 0, 0, 0.16) 100%);
+  --trainers-color: #38C0EB;
+  --presents-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 7.46%, rgba(0, 0, 0, 0.2) 100%);
+  --macbook-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.28%, rgba(0, 0, 0, 0.2) 100%);
+  --offers-text-color: #F91155;
+
+}

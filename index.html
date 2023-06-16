@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopOnline</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <p class="header__logo header__text">Shop<span class="header__span">Online</span></p>
+
+      <button class="header__menu" type="button">Меню</button>
+
+      <form class="header__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+        <label class="header__label" for="search"></label>
+        <input class="header__input" type="text" placeholder="Я ищу...">
+
+        <button class="header__search" type="submit">
+          <img class="header__search-image" src="header/img/search.svg" alt="Кнопка поиска">
+        </button>
+      </form>
+
+      <ul class="header__list">
+        <li class="header__item header__item_type_profile"><a class="header__link" href="#" target="_blank">Профиль</a></li>
+        <li class="header__item header__item_type_cart"><a class="header__link" href="#" target="_blank">Корзина</a></li>
+        <li class="header__item header__item_type_favourites"><a class="header__link" href="#" target="_blank">Избранное</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section offers">
+      <div class="section__container">
+        <ul class="offers__list">
+          <li class="offers__item banner">
+            <p class="offers__text banner__text">-50% на все ноутбуки</p>
+
+            <div class="banner__wrapper">
+              <p class="offers__text banner__offer">До конца акции:</p>
+              
+              <div class="banner__counter-wrapper">
+                <p class="offers__text banner__counter">3 <span class="banner__span">дня</span></p>
+                <p class="offers__text banner__counter">48 <span class="banner__span">часов</span></p>
+                <p class="offers__text banner__counter">43 <span class="banner__span">минуты</span></p>
+              </div>
+            </div>
+
+          </li>
+          <li class="offers__item offers__item_theme_book"><p class="offers__text offers__text_theme_book"><span class="offers__span-one">Книга</span> – лучший подарок</p></li>
+          <li class="offers__item offers__item_theme_discount"><p class="offers__text offers__text_theme_discount">Время скидок!</p></li>
+          <li class="offers__item offers__item_theme_red-trainers"></li>
+          <li class="offers__item offers__item_theme_trainers"><p class="offers__text offers__text_theme_trainers">Вторая пара кроссовок <span class="offers__span-two">в подарок!</p></span></li>
+          <li class="offers__item offers__item_theme_presents"><p class="offers__text offers__text_theme_presents">Идеи новогодних подарков</p></li>
+          <li class="offers__item offers__item_theme_macbook"><p class="offers__text offers__text_theme_macbook">Выгодно в декабре!</p></li>
+          <li class="offers__item offers__item_color_pink"><p class="offers__text offers__text_color_pink">Новогодние украшения</p></li>
+          <li class="offers__item offers__item_theme_dress"></li>
+          <li class="offers__item offers__item_theme_household"><p class="offers__text offers__text_theme_household">На бытовую химию</p></li>
+          <li class="offers__item offers__item_theme_toys"></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
